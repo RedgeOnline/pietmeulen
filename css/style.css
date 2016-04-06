@@ -136,6 +136,10 @@
   min-height: 100px;
 }
 
+.portfolio-card.mdl-cell--12-col .mdl-card__supporting-text {
+  min-height: inherit;
+}
+
 .portfolio-blog-card-compact .mdl-card__title {
   padding-bottom: 0;
 }
