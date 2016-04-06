@@ -200,3 +200,7 @@ img.article-image {
   max-width: 550px;
   margin: auto;
 }
+
+.mdl-card__title-text {
+  font-size: 23px;
+}
