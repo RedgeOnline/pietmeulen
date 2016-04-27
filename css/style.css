@@ -128,6 +128,15 @@
   left: 15%;
 }
 
+.portfolio-card.mdl-card {
+  min-height: 180px;
+}
+
+.portfolio-card.zoom:hover {
+  transform: scale(1.05);
+  transition: transform .15s ease;
+}
+
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
 }
@@ -207,4 +216,19 @@ img.article-image {
 
 .mdl-card__title-text {
   font-size: 23px;
+}
+
+.sl-overlay {
+  background: #000;
+}
+
+.sl-wrapper .sl-counter,
+.sl-wrapper .sl-navigation button.sl-next,
+.sl-wrapper .sl-navigation button.sl-prev {
+  color: #fff;
+}
+
+.sl-wrapper .sl-navigation button.sl-next,
+.sl-wrapper .sl-navigation button.sl-prev {
+  font-size: 5em;
 }
