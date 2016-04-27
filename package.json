@@ -1,0 +1,7 @@
+{
+  "name": "pietmeulen.nl",
+  "private": true,
+  "dependencies": {
+    "simplelightbox": "^1.8.3"
+  }
+}
