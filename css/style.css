@@ -145,6 +145,10 @@
   min-height: 100px;
 }
 
+.portfolio-card .mdl-card__supporting-text .mdl-card {
+  float: left;
+}
+
 .portfolio-card.mdl-cell--12-col .mdl-card__supporting-text {
   min-height: inherit;
 }
