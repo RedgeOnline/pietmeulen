@@ -60,6 +60,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .portfolio-logo-row {
+    min-height: 165px;
+  }
+  .portfolio-logo {
+    background-image: url(../images/logo-small.png);
+    height: 75px;
+    width: 75px;
+  }
   .is-compact .portfolio-logo {
     margin-top: 12px;
   }
